@@ -1,5 +1,5 @@
 const{ Kafka } = require("kafkajs");
 exports.kafka = new Kafka({
     clientId:"my-app",
-    brokers : ["172.16.14.103:9092"],
+    brokers : ["192.168.29.115"],
     });

@@ -19,5 +19,6 @@ console.log('Creating Topic [rider-updates]')
        console.log("Topic Created Success [rider-updates]");
        console.log("Disconnecting admin..");
        await admin.disconnect();
+       
     }
     init();
